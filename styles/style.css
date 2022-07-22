@@ -1,0 +1,94 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.top-header {
+    display: flex;
+    background-color: black;
+    height: 550px;
+    border-radius: 50px;
+    margin: 75px 75px 75px 75px;
+}
+
+.match-heading {
+    color: white;
+    padding-left: 50px;
+    padding-right: 500px;
+}
+
+.match-heading h1 {
+    font-size: 50px;
+}
+
+.image-area {
+    position: absolute;
+    padding-left: 881px;
+    height: 889px;
+    width: 740px;
+    padding-bottom: 0;
+    padding-top: 83px;
+}
+
+.link-button {
+    color: white;
+    background-color: tomato;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+/* match details section */
+
+.container {
+    margin-left: 75px;
+}
+
+.sidebar-items {
+    background-color: black;
+    padding: 20px;
+    margin-right: 1148px;
+    border-radius: 5px;
+}
+
+.sidebar-items a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.sidebar {
+    background-color: white;
+    padding: 17px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#blog-item {
+    background-color: tomato;
+
+}
+
+#blog-item a {
+    color: white;
+}
+
+/* Matches area */
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.match-info a {
+    border: 1px solid gray;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
